@@ -1,0 +1,14 @@
+.header :link{
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 10px;
+  border: 1px solid blueviolet;
+  border-radius: 8px;
+}
+.header{
+    margin: 30px;
+}
+.header :link:hover{
+    background-color: blueviolet;
+    color: bisque;
+}
