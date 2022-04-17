@@ -4,9 +4,14 @@
   margin-right: 5px;
   border: 1px solid blueviolet;
   border-radius: 8px;
-  color: bisque;
 }
 .header :link:hover{
     color: rgb(18, 10, 0);
     background-color: bisque;
+}
+.button{
+  padding: 5px;
+  margin-right: 5px;
+  border: 1px solid blueviolet;
+  border-radius: 8px;
 }
