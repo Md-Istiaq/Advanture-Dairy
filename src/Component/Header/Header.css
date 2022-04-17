@@ -1,9 +1,10 @@
-.header nav :link{
+.header  :link{
   text-decoration: none;
-  margin-right: 20px;
-  padding: 10px;
+  padding: 5px;
+  margin-right: 5px;
   border: 1px solid blueviolet;
   border-radius: 8px;
+  color: bisque;
 }
 .header :link:hover{
     color: rgb(18, 10, 0);

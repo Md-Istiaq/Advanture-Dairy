@@ -1,6 +1,7 @@
 import { Carousel } from 'react-bootstrap';
 import React from 'react';
 import './Home.css'
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3 className='heading' >Welcome to my travel website</h3>
+                        <h3 className='heading' >Welcome to my travel guide website</h3>
                         <p className='heading' >I will always try my level best to give you a adventurus journey. i am always there to help you for your trevel journey </p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -25,7 +26,7 @@ const Home = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3 >I will be very happy to travel with you & i wil do my best to give you the best experince during your journey</h3>
+                        <h3 >I will be very happy to help you to have an amazeing journey </h3>
                         <p >if you want me to be your tour guide . mail me at least 2 weeks befour you tour. i will give you my appoinment  so that you can have much time for your tour</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -37,11 +38,14 @@ const Home = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3 className='heading' >The places i cover is given below</h3>
+                        <h3 className='heading' >i wil do my best to give you the best experince during your journey</h3>
                         <p className='heading' >the touriest placaes i cover is given below. click on check out button to book me to help to help you to have a wonderful journey </p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+
+            {/* ----------------- Services section ---------------------*/}
+            <Services></Services>
         </div>
     );
 };
