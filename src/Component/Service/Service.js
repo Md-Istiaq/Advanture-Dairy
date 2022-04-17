@@ -1,5 +1,7 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import './Service.css'
 
 const Service = ({place}) => {
     return (
@@ -7,13 +9,12 @@ const Service = ({place}) => {
            <Card style={{ width: '18rem' }}>
              <Card.Img variant="top" src={place.img} />
              <Card.Body>
-               <Card.Title>{place.place}</Card.Title>
                <Card.Title>{place.location}</Card.Title>
+               <p>{place.details}</p>
                <Card.Text>
-                Local Guide:-{place.name}
                 Guide Number:-{place.Number}
                </Card.Text>
-               <Button variant="primary">Check Out</Button>
+               <Link className='button' to="/checkout">Check Out</Link>
              </Card.Body>
            </Card>
         </div>

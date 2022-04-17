@@ -19,7 +19,7 @@ const Register = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword();
+      ] = useCreateUserWithEmailAndPassword(auth);
 
     const handleEmail = e =>{
            setEmail(e.target.value)
@@ -48,7 +48,7 @@ const Register = () => {
             <Form onSubmit={createUser} className='w-25 mx-auto mt-5'>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
-                <Form.Control onBlur={handleEmail} type="email" placeholder="Enter email" />
+                <Form.Control onBlur={handleEmail} type="email" placeholder="Enter email" required />
                 <Form.Text className="text-muted">
                     We'll never share your email with anyone else.
                 </Form.Text>
@@ -56,7 +56,7 @@ const Register = () => {
             
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                 <Form.Label>Password</Form.Label>
-                <Form.Control onBlur={handlePassword} type="password" placeholder="Password" />
+                <Form.Control onBlur={handlePassword} type="password" placeholder="Password" required />
                 </Form.Group>
                 <div className='link'>
                 <Link to="/login">Log in if you register before</Link>

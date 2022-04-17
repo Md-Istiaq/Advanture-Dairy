@@ -3,7 +3,7 @@
         "id":1,
         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0dLnTy2aZw58CxrV22dSCmJJxZBU7XMCZ3w&usqp=CAU",
         "location":"cox's bazar,bangladesh",
-        "place":"cox's bazar sea beach",
+        "details":" we are not only going to cox'bazar sea beach , but also we will be cover some of the beautiful places in cox's bazar like:-Cox's Bazar Beach · Inani Beach · Marine Drive · Cox's Bazar · Himchori ·",
         "name":"wasim",
         "Number":"0180000000"
     },
@@ -11,40 +11,40 @@
         "id":2,
         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGf72s4LUWMCsP4tsUYuOMUg7UW-UKc6ebqg&usqp=CAU",
         "location":"Khagrachori,chittagong",
-        "place":"Sajek",
+        "details":"In khagrachori we will be visiting 1. Alutila Hill · 2. Richhang Waterfall · 3. KHDC Horticulture Park · 4. Dighinala Maniker Dighi · 5. Yonged Buddha Bihar · 6. Alutila Cave · 7. Panichari Buddha & most important sajek",
         "name":"Shahed",
-        "Number":"01811111111"
+        "Number":"0180000000"
     },
     {
         "id":3,
         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnKPHxpdR0PfsopElEvbfxWw8jhbEzozck2A&usqp=CAU",
         "location":"Rangamathi,Chittagong",
-        "place":"Kaptai",
+        "details":" i will take you The top attractions to visit in Rangamati are: Kaptai Lake · Lake View Island · Parjatan Hanging Bridge · Shuvolong Waterfalls · Polwel Park · ",
         "name":"atiq",
-        "Number":"01822222222"
+        "Number":"0180000000"
     },
     {
         "id":4,
         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1qq1lCwgrDpA2rs5QGXppgYFciLYClj_YIQ&usqp=CAU",
         "location":"patuakhali,barishal",
-        "place":"Kuakatha sea beach",
+        "details":"i am going to take you some famous places in potuakhali like Kuakata Sea Beach · Fatrar Char · Sreerampur Old(Prachin) Mosque · Sreerampur Zamidar Bari · Payra Seaport · Ilish Park.",
         "name":"kaiser",
-        "Number":"01833333333"
+        "Number":"0180000000"
     },
     {
         "id":5,
         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH1Fq-x5Tr-MkkoHf6dRdB90p-i5Jg4nitaw&usqp=CAU",
         "location":"Sylhet,bangladesh",
-        "place":"tea garden",
+        "details":"we will visit jaflong,tea garden, Ratargul Swamp Forest · Lalakhal · Tanguar Haor · Sreemongol & Around · Panthumai · Luvachora · Bisnakandi ",
         "name":"jobber",
-        "Number":"01844444444"
+        "Number":"0180000000"
     },
     {
         "id":6,
         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmmcd4cJuDI0T-EQUCnSFvuia4meXBlIy24w&usqp=CAU",
         "location":"banderban,chittagong",
-        "place":"Nilachol",
+        "details":"i will show you some beautiful places in banderban that you have never seen before. i will take you to nilachol,nilgiri, sorno mondir,megla,amaikhim,mafakhum & meny more places",
         "name":"saif",
-        "Number":"01855555555"
+        "Number":"0180000000"
     }
 ]

@@ -10,8 +10,15 @@
     background-color: bisque;
 }
 .button{
+  text-decoration: none;
   padding: 5px;
   margin-right: 5px;
-  border: 1px solid blueviolet;
+  border: 1px solid black;
   border-radius: 8px;
+  background-color: black;
+  color: yellow;
+}
+.button:hover{
+  background-color: white;
+  color: black;
 }
