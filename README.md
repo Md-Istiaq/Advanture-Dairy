@@ -1,5 +1,5 @@
 # Adventure Dairy
- [Live site link](https://adventure-diary-63607.web.app/).
+(https://adventure-diary-63607.web.app/).
 
 ## website's different features and functionality.
 
