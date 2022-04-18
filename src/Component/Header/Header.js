@@ -19,15 +19,15 @@ const Header = () => {
     <Container>
     <Navbar.Brand href="/">Adventure dairy</Navbar.Brand>
     <Nav className="me-auto">
-     <Link to="/home">Home</Link>
-     <Link to="/checkout">Check Out</Link>
-     <Link to="/blogs">Blogs</Link>
-     <Link to="/aboutme">About Me</Link>
+     <Link className='navlink' to="/home">Home</Link>
+     <Link className='navlink' to="/checkout">Check Out</Link>
+     <Link className='navlink' to="/blogs">Blogs</Link>
+     <Link className='navlink' to="/aboutme">About Me</Link>
      {
        user?
-       <button className='button' onClick={logout}>Log Out</button>
+       <button className='navlink' onClick={logout}>Log Out</button>
        :
-       <Link to="/login">Log In</Link>
+       <Link className='navlink' to="/login">Log In</Link>
      }
     </Nav>
     </Container>

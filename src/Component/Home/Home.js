@@ -2,6 +2,7 @@ import { Carousel } from 'react-bootstrap';
 import React from 'react';
 import './Home.css'
 import Services from '../Services/Services';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -46,6 +47,9 @@ const Home = () => {
 
             {/* ----------------- Services section ---------------------*/}
             <Services></Services>
+
+            {/* ------------------Footer-------------------------------- */}
+            <Footer></Footer>
         </div>
     );
 };

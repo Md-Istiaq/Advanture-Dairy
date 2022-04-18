@@ -9,6 +9,7 @@ import AboutMe from './Component/AboutMe/AboutMe';
 import Login from './Component/LogIn/Login';
 import Register from './Component/Register/Register';
 import RequirAuth from './Component/RequirAuth/RequirAuth';
+import PageNotFound from './Component/PageNotFound/PageNotFound';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Route path='/aboutme' element={<AboutMe/>}></Route>
       <Route path='/login' element={<Login/>}></Route>
       <Route path='/register' element={<Register/>}></Route>
+      <Route path='*' element={<PageNotFound/>}></Route>
     </Routes>
     </div>
   );
