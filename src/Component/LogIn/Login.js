@@ -70,6 +70,7 @@ const Login = () => {
                 </Form.Group>
                 <div className='link'>
                     <Link to='/register'>Register if you haven't an account</Link>
+                    <Link to="/updatepassword">Reset Password</Link>
                     <Button variant="primary" type="submit">
                         Log In
                     </Button>
@@ -77,6 +78,7 @@ const Login = () => {
                 <Button onClick={googleSignIn} variant='primary' type='submiit'>Log In With Google</Button>
                 </div>
             </Form>
+
         </div>
     );
 };

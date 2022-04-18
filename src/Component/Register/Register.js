@@ -19,7 +19,7 @@ const Register = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth);
+      ] = useCreateUserWithEmailAndPassword(auth ,{sendEmailVerification:true});
 
     const handleEmail = e =>{
            setEmail(e.target.value)

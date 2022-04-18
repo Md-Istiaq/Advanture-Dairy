@@ -10,6 +10,7 @@ import Login from './Component/LogIn/Login';
 import Register from './Component/Register/Register';
 import RequirAuth from './Component/RequirAuth/RequirAuth';
 import PageNotFound from './Component/PageNotFound/PageNotFound';
+import UpdatePassword from './Component/UpdatePassword/UpdatePassword';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Route path='/login' element={<Login/>}></Route>
       <Route path='/register' element={<Register/>}></Route>
       <Route path='*' element={<PageNotFound/>}></Route>
+      <Route path='/updatepassword' element={<UpdatePassword/>}></Route>
     </Routes>
     </div>
   );
